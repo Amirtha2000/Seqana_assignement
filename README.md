@@ -61,7 +61,7 @@ Covariate files
 
 2. click on the show editor <img width="1440" alt="Screenshot 2023-07-30 at 05 28 09" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/39e8b360-f731-461c-b903-2957cd3451eb">
 
-3. copy paste this code in the code editor and run it
+3. copy paste this code in the code editor and run it with your specific file paths
    
 ``` python
 import geopandas as gpd
@@ -109,7 +109,7 @@ for covariate_name in covariate_names:
 
 print(correlation_results)
 ```
-5. Run the code and see the ouput
+5. Run the code and see the output
 <img width="1440" alt="Screenshot 2023-07-30 at 05 28 38" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/06dc2038-a0fd-4dff-a5ea-05103c9f8ac8">
 
 
@@ -121,10 +121,14 @@ and N2O resulting from the project scenario during the verification period.
 1. Mathematical edge: To start with, I would start with the co-variate that is the most positively correlated with SOC. ' landsat7_c01_t1_annual_ndvi_2009.tif' has the highest positive correlation. 
 Then consider 'open_land_map_soil_clay.tif'. The others are negatively correlated with SOC
 
-2.  Relevance to Research Question: NDVI is directly related to SOC. Healthier and more productive vegetation often leads to increased carbon sequestration in the soil, resulting in higher SOC levels. The higher the content of clay in the soil, the higher the Soil Organic Carbon (SOC) content is likely to be.
+2. Relevance to Research Question: NDVI is directly related to SOC. Healthier and more productive vegetation often leads to increased carbon sequestration in the soil, resulting in higher SOC levels. The higher the content of clay in the soil, the higher the Soil Organic Carbon (SOC) content is likely to be.
 
-3.  Unique variations: Even though 'modis_annual_npp_2009.tif ' is negatively correlated, this covariate exhibits substantial spatial variation within the AOI and is likely to be a key driver of SOC stocks' distribution, it can be a strong candidate for stratification.
+3. Unique variations: Even though 'modis_annual_npp_2009.tif ' is negatively correlated, this covariate exhibits substantial spatial variation within the AOI and is likely to be a key driver of SOC stocks' distribution, making it a strong candidate for stratification.
 
+Is there sufficient supporting data to stratify the AOI and assign sampling points? 
 
+I think adding some more covariates that might be affecting the topsoil of the SOC could drastically improve the precision of the stratification process. After assessing the usefulness of each covariate, we can proceed with stratification by grouping similar areas together based on combinations of these covariates. The stratified areas can then serve as sampling strata, and you can assign sampling points within each stratum for further data collection or analysis. The goal is to ensure that each stratum represents a distinct portion of the AOI in terms of the selected covariates, thus enhancing the efficiency and accuracy of your subsequent analyses.
+
+But the effectiveness of stratification will ultimately be determined by the quality and relevance of the selected covariates and the thoroughness of the data analysis process. 
 # The End
 Thank you for the opportunity 
