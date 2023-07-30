@@ -8,9 +8,14 @@
 
  1. Download the file
  2. Unzip the file
- 3. open the Submission.qgz
- 4. Right click on the points _data geopackage -> click 'zoom to layer'
+ 3. open the Submission. qgz
+ 4. Right-click on the points _data geopackage -> click 'zoom to layer'<img width="1440" alt="Screenshot 2023-07-30 at 05 14 58" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/b4650b59-2298-44f2-9e74-543e213cc2a1">
+
  5. Check one layer and uncheck other layers to visualize each tiff file.
+ 6. Click layout to add images together as a map visualization
+Result of Map Layout
+<img width="1440" alt="Screenshot 2023-07-30 at 05 15 57" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/335e9ead-2623-42e4-96e9-24c325a964b2">
+
     
 # Tasks for phase 2
 
