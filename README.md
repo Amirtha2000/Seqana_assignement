@@ -2,7 +2,7 @@
 
  30/07/2023
 
- I have used QGIS to execute the tasks
+ I have used QGIS to execute the tasks. Please change the file paths according your files. 
 
  # Task 1  - visualization
 
@@ -75,6 +75,7 @@ points_gpkg_file = '/Users/amirthavarshini/Downloads/intern_tasks/seqana_gis_sol
 points_gdf = gpd.read_file(points_gpkg_file)
 
 # Load the covariates from the TIFF files
+#!!!! change the location according to your file path
 covariate_files = [
     '/Users/amirthavarshini/Downloads/intern_tasks/seqana_gis_solutions_engineering_working_student_challenge_data 2/covariates/open_land_map_soil_ph.tif',
     '/Users/amirthavarshini/Downloads/intern_tasks/seqana_gis_solutions_engineering_working_student_challenge_data 2/covariates/open_land_map_soil_clay.tif',
