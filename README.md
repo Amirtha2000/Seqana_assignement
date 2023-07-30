@@ -37,6 +37,8 @@ Result of Map Layout
 
 <img width="1440" alt="Screenshot 2023-07-30 at 05 10 43" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/73afd5ed-8c0c-43fb-899a-8ece38985395">
 
+4. To visualize the histogram for each tiff file, right click on the file and go to the Histogram. 
+<img width="1440" alt="Screenshot 2023-07-30 at 05 39 22" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/eb80d58f-e47d-43b5-b2a2-cff670fc6551">
 
 
 
@@ -106,8 +108,22 @@ for covariate_name in covariate_names:
 
 print(correlation_results)
 ```
+5. Run the code and see the ouput
 <img width="1440" alt="Screenshot 2023-07-30 at 05 28 38" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/06dc2038-a0fd-4dff-a5ea-05103c9f8ac8">
 
 
-5. Run the code and see the ouput
+# Task 5 
 
+The main objective of monitoring is to quantify the stock change of SOC and emissions of CO2, CH4
+and N2O resulting from the project scenario during the verification period. 
+
+1. Mathematical edge: To start with, I would start with the co-variate that is the most positively correlated with SOC. ' landsat7_c01_t1_annual_ndvi_2009.tif' has the highest positive correlation. 
+Then consider 'open_land_map_soil_clay.tif'. The others are negatively correlated with SOC
+
+2.  Relevance to Research Question: NDVI is directly related to SOC. Healthier and more productive vegetation often leads to increased carbon sequestration in the soil, resulting in higher SOC levels. The higher the content of clay in the soil, the higher the Soil Organic Carbon (SOC) content is likely to be.
+
+3.  Unique variations: Even though 'modis_annual_npp_2009.tif ' is negatively correlated, this covariate exhibits substantial spatial variation within the AOI and is likely to be a key driver of SOC stocks' distribution, it can be a strong candidate for stratification.
+
+
+# The End
+Thank you for the opportunity 
