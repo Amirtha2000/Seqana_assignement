@@ -127,7 +127,7 @@ Then consider 'open_land_map_soil_clay.tif'. The others are negatively correlate
 
 Is there sufficient supporting data to stratify the AOI and assign sampling points? 
 
-I think adding some more covariates that might be affecting the topsoil of the SOC could drastically improve the precision of the stratification process. After assessing the usefulness of each covariate, we can proceed with stratification by grouping similar areas together based on combinations of these covariates. The stratified areas can then serve as sampling strata, and you can assign sampling points within each stratum for further data collection or analysis. The goal is to ensure that each stratum represents a distinct portion of the AOI in terms of the selected covariates, thus enhancing the efficiency and accuracy of your subsequent analyses.
+I think adding some more covariates that might be affecting the topsoil of the SOC could drastically improve the precision of the stratification process. After assessing the usefulness of each covariate, we can proceed with stratification by grouping similar areas together based on combinations of these covariates. The stratified areas can then serve as sampling strata, and we can assign sampling points within each stratum for further data collection or analysis. The goal is to ensure that each stratum represents a distinct portion of the AOI in terms of the selected covariates, thus enhancing the efficiency and accuracy of your subsequent analyses.
 
 But the effectiveness of stratification will ultimately be determined by the quality and relevance of the selected covariates and the thoroughness of the data analysis process. 
 # The End
