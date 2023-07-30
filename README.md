@@ -1,15 +1,16 @@
-# Seqana_assignement - Amirtha varshini
+# Seqana_assignment: Amirtha varshini
 
  30/07/2023
 
- I have used QGIS to execute the tasks. Please change the file paths according your files. 
+ I have used QGIS to execute the tasks. Please change the file paths according to your files. 
 
- # Task 1  - visualization
+ # Task 1: Visualization
 
  1. Download the file
  2. Unzip the file
  3. open the Submission. qgz
- 4. Right-click on the points _data geopackage -> click 'zoom to layer'<img width="1440" alt="Screenshot 2023-07-30 at 05 14 58" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/b4650b59-2298-44f2-9e74-543e213cc2a1">
+ 4. Right-click on the points _data geopackage -> click 'zoom to layer'<img width="1440" alt="Screenshot 2023-07-30 at 05 14 58" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/bbe70987-de3c-47f9-a172-c4adc9116bed">
+
 
  5. Check one layer and uncheck other layers to visualize each tiff file.
  6. Click layout to add images together as a map visualization
@@ -17,28 +18,26 @@
     
 Result of Map Layout
 
-
-<img width="1440" alt="Screenshot 2023-07-30 at 05 15 57" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/335e9ead-2623-42e4-96e9-24c325a964b2">
+<img width="1440" alt="Screenshot 2023-07-30 at 05 15 57" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/4a894797-f92a-4d9d-8830-980525f8b03d">
 
     
 # Tasks for phase 2
 
 1. Click on vectors -> Analysis Tools -> Basic Statistics fields
-   <img width="1440" alt="Screenshot 2023-07-30 at 05 08 45" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/9d011322-8050-4147-82c4-d6e187807261">
+   <img width="1440" alt="Screenshot 2023-07-30 at 05 08 45" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/0d679ce8-0626-4123-a576-550e1f1d05a8">
 
    
 2. Click the field that contains the SOC field from the data file
-   <img width="1440" alt="Screenshot 2023-07-30 at 05 10 26" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/8996b04d-d73d-47ef-bfae-10b620713f12">
+   <img width="1440" alt="Screenshot 2023-07-30 at 05 10 26" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/1b84d978-8989-4511-8f03-ac54ba64dbdd">
 
-   
-<img width="1440" alt="Screenshot 2023-07-30 at 05 10 34" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/939a0a69-d301-41dd-b326-e4b722023ba9">
+   <img width="1440" alt="Screenshot 2023-07-30 at 05 10 34" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/a00e7fb4-021e-4d01-bc0d-fca5ca3cc3e2">
 
 3. Click run 
+<img width="1440" alt="Screenshot 2023-07-30 at 05 10 43" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/dc616f25-c7a1-485d-a235-8f271b8df509">
 
-<img width="1440" alt="Screenshot 2023-07-30 at 05 10 43" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/73afd5ed-8c0c-43fb-899a-8ece38985395">
 
-4. To visualize the histogram for each tiff file, right click on the file and go to the Histogram. 
-<img width="1440" alt="Screenshot 2023-07-30 at 05 39 22" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/eb80d58f-e47d-43b5-b2a2-cff670fc6551">
+4. To visualize the histogram for each tiff file, right-click on the file and go to the Histogram. 
+<img width="1440" alt="Screenshot 2023-07-30 at 05 39 22" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/8c11d536-fe04-4334-8009-6072ca315f3b">
 
 
 
@@ -57,11 +56,12 @@ Covariate files
 
 # Tasks for phase 4
 
-1. Click Plugin -> open the python Plugin<img width="1440" alt="Screenshot 2023-07-30 at 05 25 41" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/85359298-8aff-461b-958d-1776cc8cadbe">
+1. Click Plugin -> open the python Plugin<img width="1440" alt="Screenshot 2023-07-30 at 05 25 41" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/5d3193e5-50b3-47e6-8a3d-f101102c6e3d">
 
-2. click on the show editor <img width="1440" alt="Screenshot 2023-07-30 at 05 28 09" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/39e8b360-f731-461c-b903-2957cd3451eb">
+2. click on the Show editor 
+<img width="1440" alt="Screenshot 2023-07-30 at 05 28 09" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/f3188d3f-464a-4bf5-94e0-6a45c0281a09">
 
-3. copy paste this code in the code editor and run it with your specific file paths
+3. copy and paste this code into the code editor and run it with your specific file paths
    
 ``` python
 import geopandas as gpd
@@ -110,7 +110,7 @@ for covariate_name in covariate_names:
 print(correlation_results)
 ```
 5. Run the code and see the output
-<img width="1440" alt="Screenshot 2023-07-30 at 05 28 38" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/06dc2038-a0fd-4dff-a5ea-05103c9f8ac8">
+<img width="1440" alt="Screenshot 2023-07-30 at 05 28 38" src="https://github.com/Amirtha2000/Seqana_assignement/assets/53963107/b678d4d8-b08b-4543-8703-b1b26b19700c">
 
 
 # Task 5 
